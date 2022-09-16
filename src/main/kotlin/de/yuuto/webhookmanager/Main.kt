@@ -1,10 +1,10 @@
-package de.yuuto.WebhookManager
+package de.yuuto.webhookmanager
 
-import de.yuuto.WebhookManager.dataclass.WebhookData
-import de.yuuto.WebhookManager.util.Config
+import de.yuuto.webhookmanager.dataclass.WebhookData
+import de.yuuto.webhookmanager.util.Config
 import kotlinx.coroutines.*
 import java.util.concurrent.ConcurrentLinkedQueue
-
+import kotlin.time.Duration.Companion.seconds
 
 suspend fun main() {
     Config()
@@ -27,5 +27,4 @@ suspend fun main() {
             }
         }
     }
-
 }

@@ -1,6 +1,6 @@
-package de.yuuto.WebhookManager.util
+package de.yuuto.webhookmanager.util
 
-import de.yuuto.WebhookManager.dataclass.ConfigData
+import de.yuuto.webhookmanager.dataclass.ConfigData
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import java.nio.file.Path

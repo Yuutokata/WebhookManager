@@ -1,4 +1,4 @@
-package de.yuuto.WebhookManager.dataclass
+package de.yuuto.webhookmanager.dataclass
 
 import kotlinx.serialization.Serializable
 
