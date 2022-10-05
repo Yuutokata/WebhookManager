@@ -1,7 +1,7 @@
 # WebhookManager
 
 This is a socket webserver that can manage your Webhooks you need to send. It‘s also gonna sleep if you got rate limited.
-
+Its not really useful because it takes a lot of performance but im gonna fix that in the future.
 
 ## How to install
 
