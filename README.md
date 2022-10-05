@@ -19,3 +19,5 @@ Create a Dataclass for your webhook in the webhookmanager and your project, itâ€
     }
     
 Then copy the file in examples/sender.kt and add kto-network dependency.
+
+The dataclass Webhook that is already in the Manager is for discord embeds.
